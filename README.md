@@ -29,7 +29,7 @@ Wykorzystane zasoby chmury:
  - [Translator](https://docs.microsoft.com/pl-pl/azure/cognitive-services/translator/) 
  
 
-## Komendy do utworzenia projektu z github'a
+## Komend
 
 #BASH - Pobranie repozytorium na pulpit
    
