@@ -8,7 +8,8 @@ Link: https://flasktranslatorone.azurewebsites.net/ (może już nie działać)
 
 Aplikacja **FlaskTranslator**
 Dzięki zastosowanemu zasobowi [Translator](https://docs.microsoft.com/pl-pl/azure/cognitive-services/translator/) możemy wpisać dowolny tekst w dowolnym języku.
-Tekst zostanie przetłumaczony na wybrane języki dostępne w aplikacji. Można dowolnie edytować je, zmieniając w kodzie prefix.
+Translator sam przeanalizuje w jakim języku jest napisany tekst i przetłumaczy go na dostępne języki
+Można dodawać więcej języków, wystarczy do kodu dodać więcej prefixów
 ![podgląd działania](https://i.imgur.com/uTXcEmt.gif) 
 
 # Zawartość
