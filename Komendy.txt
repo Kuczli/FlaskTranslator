@@ -1,0 +1,51 @@
+#BASH
+- Tworzenie folderu
+mkdir FlaskTranslator
+- Wejście o folderu FlaskTranslator
+cd FlaskTranslator
+- Tworzenie wirtualnego środowiska w /FlaskTranslator
+py -3 -m venv .venv
+- Aktywacja środowiska wirtualnego
+source .venv\\scripts\\activate
+
+#PyCharm Community Edition 2020.1 x64
+- Tworzenie bibliotek (requirements.txt)
+requirements.txt dane w pliku:
+flask
+python-dotenv
+requests
+- Wczytanie bibliotek
+pip install -r requirements.txt
+- Sprawdzenie aktywnych bibliotek
+pip list
+Package            Version
+------------------ ---------
+certifi            2021.10.8
+charset-normalizer 2.0.11
+click              8.0.3
+colorama           0.4.4
+Flask              2.0.2
+idna               3.3
+itsdangerous       2.0.1
+Jinja2             3.0.3
+MarkupSafe         2.0.1
+pip                20.2.3
+python-dotenv      0.19.2
+requests           2.27.1
+setuptools         49.2.1
+urllib3            1.26.8
+Werkzeug           2.0.2
+- Stworzenie pliku app.py
+#BASH 
+cat > app.py
+- Tworzenie kodu w app.py
+- Tworzenie HTML
+#BASH
+mkdir templates
+cat > index.html
+- Tworzenie w Azure środowiska/zasobów
+#bash
+az login
+az login --use-device-code
+az group create -n FlaskTranslator -l westeurope
+az vm create --resource-group FlaskTranslator --name virtualmachine --size "Standard_B1ls" --image "Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:latest" --public-ip-sku Standard --admin-username ubuntu
