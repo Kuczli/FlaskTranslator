@@ -12,7 +12,7 @@ Aplikacja **FlaskTranslator**
 # Zawartość
 * [Technologie](#Technologie)
 * [Deployment](#Deployment)
-* [Komendy do utworzenia projektu z github'a](#Komendy do utworzenia projektu z github'a)
+* [Komendy do utworzenia projektu z github'a](#Komendy)
 
 ## Technologie
 Python 3.9.2
